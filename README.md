@@ -5,7 +5,7 @@
 One harness. Every assistant. One command.
 
 ```sh
-npx prepot install
+npx prepot-cli install
 ```
 
 ## What this is
@@ -41,10 +41,10 @@ point: fork it, replace `assets/`, and it ships your AI toolchain instead. See
 ## Quick start
 
 ```sh
-npx prepot install                   # your project/workspace
-npx prepot install --scope=global    # your whole machine
-npx prepot update                    # pull in the latest content
-npx prepot doctor                    # what is installed, and is it healthy
+npx prepot-cli install                   # your project/workspace
+npx prepot-cli install --scope=global    # your whole machine
+npx prepot-cli update                    # pull in the latest content
+npx prepot-cli doctor                    # what is installed, and is it healthy
 ```
 
 Project-scoped by default. Providers are detected from the directories already

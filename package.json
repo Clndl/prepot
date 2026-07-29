@@ -1,5 +1,5 @@
 {
-  "name": "prepot",
+  "name": "prepot-cli",
   "version": "1.0.0",
   "description": "Install skills, agents, workflows, and hooks into every AI coding assistant from a single source.",
   "license": "MIT",
