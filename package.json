@@ -1,0 +1,47 @@
+{
+  "name": "prepot",
+  "version": "1.0.0",
+  "description": "Install skills, agents, workflows, and hooks into every AI coding assistant from a single source.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "bin": {
+    "prepot": "dist/cli.js"
+  },
+  "files": [
+    "dist/",
+    "assets/",
+    "runtime/",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node scripts/postbuild.mjs",
+    "clean": "rm -rf dist",
+    "test": "node --test test/*.test.ts",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.1",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "skills",
+    "claude-code",
+    "codex",
+    "cursor",
+    "copilot",
+    "harness"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clndl/prepot.git"
+  },
+  "homepage": "https://github.com/clndl/prepot#readme",
+  "bugs": {
+    "url": "https://github.com/clndl/prepot/issues"
+  }
+}
