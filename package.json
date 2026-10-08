@@ -1,39 +1,23 @@
 {
   "name": "prepot-cli",
-  "version": "1.0.1",
-  "description": "Install skills, agents, workflows, and hooks into every AI coding assistant from a single source.",
+  "version": "1.1.0",
+  "description": "AI agent harness — skills and workflows packaged as a plugin for coding agents",
   "license": "MIT",
-  "type": "module",
-  "engines": {
-    "node": ">=20.11.0"
-  },
-  "bin": {
-    "prepot": "dist/cli.js"
-  },
   "files": [
-    "dist/",
-    "assets/",
-    "runtime/",
-    "README.md"
+    "skills/",
+    "rules/",
+    ".claude-plugin/",
+    ".codex-plugin/",
+    ".agents/",
+    "README.md",
+    "CHANGELOG.md",
+    "THIRD_PARTY_NOTICES.md"
   ],
-  "scripts": {
-    "build": "tsc -p tsconfig.json && node scripts/postbuild.mjs",
-    "clean": "rm -rf dist",
-    "test": "node --test test/*.test.ts",
-    "prepare": "npm run build"
-  },
-  "devDependencies": {
-    "@types/node": "^22.20.1",
-    "typescript": "^5.9.3"
-  },
   "keywords": [
     "ai",
     "agents",
     "skills",
-    "claude-code",
-    "codex",
-    "cursor",
-    "copilot",
+    "plugin",
     "harness"
   ],
   "repository": {

@@ -1,16 +1,5 @@
-# Dependencies
-node_modules/
-
-# Compiled output. Not committed: `prepare` rebuilds it on a fresh clone and for
-# `npx github:<user>/<repo>`. It IS published to npm, via the `files` allowlist
-# in package.json.
-dist/
-
-# Scratch. The test suite writes here too (tmp/test).
+# Scratch
 tmp/
-
-# Tarballs from `npm pack`
-*.tgz
 
 # OS / editor
 .DS_Store
@@ -21,6 +10,3 @@ Thumbs.db
 # Secrets
 .env
 .env.local
-
-# NOTE: assets/ is deliberately NOT ignored. It is the harness payload and must
-# be committed, or a clone has nothing to install.

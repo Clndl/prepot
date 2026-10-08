@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "prepot",
+  "description": "A personal AI agent harness: engineering skills for coding agents.",
+  "owner": {
+    "name": "clndl",
+    "url": "https://github.com/clndl"
+  },
+  "plugins": [
+    {
+      "name": "prepot",
+      "version": "1.1.0",
+      "source": "./",
+      "description": "A personal AI agent harness: engineering skills for coding agents.",
+      "license": "MIT"
+    }
+  ]
+}

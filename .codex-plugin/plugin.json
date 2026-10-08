@@ -1,0 +1,20 @@
+{
+  "name": "prepot",
+  "version": "1.1.0",
+  "description": "A personal AI agent harness: engineering skills for coding agents.",
+  "author": {
+    "name": "clndl",
+    "url": "https://github.com/clndl"
+  },
+  "homepage": "https://github.com/clndl/prepot",
+  "repository": "https://github.com/clndl/prepot",
+  "license": "MIT",
+  "keywords": ["skills", "agents", "harness", "workflows"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Prepot",
+    "shortDescription": "Engineering skills for coding agents.",
+    "developerName": "clndl",
+    "category": "Developer Tools"
+  }
+}
